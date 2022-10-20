@@ -1,4 +1,4 @@
-# Project 6 CloudComputing
+# Project 6 - Cloud Computing
 Tên đề tài: Tìm hiểu về Apache Hive và Xây dựng Data Warehouse đơn giản. 
 # Thành viên tham gia Project
 * Đinh Tấn Phúc Huy - 20110129 - 20110129@student.hcmute.edu.vn  
