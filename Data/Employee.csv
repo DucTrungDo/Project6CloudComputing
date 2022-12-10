@@ -1,0 +1,14 @@
+﻿Employee Key,Parent Employee Key,Employee,Title,Email
+0,,Unknown,N/A,N/A
+3,4,Hudson Onslow,Salesperson,hudson.onslow@wideworldimporters.com
+4,19,Isabella Rupp,Manager,isabella.rupp@wideworldimporters.com
+6,4,Sophia Hinton,Salesperson,sophia.hinton@wideworldimporters.com
+7,4,Amy Trefl,Salesperson,amy.trefl@wideworldimporters.com
+8,12,Anthony Grosse,Salesperson,anthony.grosse@wideworldimporters.com
+12,19,Henry Forlonge,Manager,henry.forlonge@wideworldimporters.com
+13,12,Hudson Hollinworth,Salesperson,hudson.hollinworth@wideworldimporters.com
+14,20,Lily Code,Salesperson,lily.code@wideworldimporters.com
+15,20,Taj Shand,Salesperson,taj.shand@wideworldimporters.com
+16,20,Archer Lamble,Salesperson,archer.lamble@wideworldimporters.com
+19,,Jai Shand,Director,jai.shand@wideworldimporters.com
+20,19,Jack Potter,Manager,jack.potter@wideworldimporters.com
