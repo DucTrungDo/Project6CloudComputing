@@ -1,0 +1,34 @@
+1, Date_time
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --table Date_time --target-dir s3://mybuck06/hive1/ --username admin --password 12345678 -m 1 --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+sqoop import "-Dorg.apache.sqoop.splitter.allow_text_splitter=true" --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --username admin --password 12345678 --table Date_time --hive-import --target-dir s3n://mybuck06/hive1/Date_time/ --create-hive-table --hive-table Date_time --split-by Dt --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+2,Customer
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --table Customer --target-dir s3://mybuck06/hive2/ --username admin --password 12345678 -m 1 --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+sqoop import "-Dorg.apache.sqoop.splitter.allow_text_splitter=true" --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --username admin --password 12345678 --table Customer --hive-import --target-dir s3n://mybuck06/hive2/Customer/ --create-hive-table --hive-table Customer --split-by 'Customer Key' --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+3,Employee
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --table Employee --target-dir s3://mybuck06/hive3/ --username admin --password 12345678 -m 1 --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --username admin --password 12345678 --table Employee --hive-import --target-dir s3n://mybuck06/hive3/Employee/ --create-hive-table --hive-table Employee --split-by 'Employee Key' --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+4,City
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --table City --target-dir s3://mybuck06/hive4/ --username admin --password 12345678 -m 1 --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --username admin --password 12345678 --table City --hive-import --target-dir s3n://mybuck06/hive4/City/ --create-hive-table --hive-table City --split-by 'City Key' --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+5,State Province
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --table StateProvince --target-dir s3://mybuck06/hive5/ --username admin --password 12345678 -m 1 --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --username admin --password 12345678 --table StateProvince --hive-import --target-dir s3n://mybuck06/hive5/StateProvince/ --create-hive-table --hive-table StateProvince --split-by 'State Province Key' --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+6,Sale
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --table Sale --target-dir s3://mybuck06/hive6/ --username admin --password 12345678 -m 1 --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --username admin --password 12345678 --table Sale --hive-import --target-dir s3n://mybuck06/hive6/Sale/ --create-hive-table --hive-table Sale --split-by 'Sale Key' --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+7,Stock Item
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --table StockItem --target-dir s3://mybuck06/hive7/ --username admin --password 12345678 -m 1 --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
+
+sqoop import --connect "jdbc:mysql://cloudcomputing.cflrttccxted.us-east-1.rds.amazonaws.com:3306/dataset" --username admin --password 12345678 --table StockItem --hive-import --target-dir s3n://mybuck06/hive7/StockItem/ --create-hive-table --hive-table StockItem --split-by 'Stock Item Key' --fields-terminated-by '\t' --lines-terminated-by '\n' --as-textfile
