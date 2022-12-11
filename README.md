@@ -26,7 +26,7 @@ Tên đề tài: Tìm hiểu về Apache Hive và Xây dựng Data Warehouse đ
 * Sử dụng HUE để thực hiện các truy vấn HiveQL
 # Video báo cáo của nhóm
 * Lần 1: https://drive.google.com/file/d/1b3XJmsguE0D9BPvcuIM1O1zRCFP6xSgd/view?usp=sharing
-* Lần 2: https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEyMf6CAcylg%26feature%3Dyoutu.be&h=AT0CNhPc3-al_BRCPQv0MjQYc6HMIqqKEbdLCGU2pYtYDN7TWqJ1qWO1BhG0iFwF4Hjd3x-mC2Zc6OHvYmY5ehJQQC3T-4KHjvt_wN1ftsHaIJ3n-PFuiNMkfK8yH-P3hw92qA
+* Lần 2: https://www.youtube.com/watch?v=EyMf6CAcylg
 # Mục tiêu và hướng phát triển
 * Áp dụng các phương pháp tải vào các bản cập nhật mới hơn của Amazon EMR.
 * Xây dưng được pháp pháp tải Incrememtal load tốt hơn (Amazon RDS/MySQL -> S3 bucket -> Hive)
